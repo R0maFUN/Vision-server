@@ -1,0 +1,1 @@
+web: gunicorn VisionV2.wsgi --log-file - 
