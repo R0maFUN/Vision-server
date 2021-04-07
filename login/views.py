@@ -6,6 +6,7 @@ def index(request):
     return HttpResponse('Hello world')
 
 def auth(request):
+    print(request.method)
     if request.method == 'POST':
         return HttpResponse('POST')
     try:
