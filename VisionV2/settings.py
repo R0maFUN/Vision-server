@@ -28,7 +28,8 @@ SECRET_KEY = '8dz#l_r90+2)#65yr34mo&%1oxekn77qyxw)#-82u71vb!=@es'
 DEBUG = True
 
 ALLOWED_HOSTS = ['visionapp123.herokuapp.com',
-                 'enigmatic-hamlet-35896.herokuapp.com'
+                 'enigmatic-hamlet-35896.herokuapp.com',
+                 '127.0.0.1'
                 ]
 
 
